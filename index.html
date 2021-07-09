@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HW5</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- JS -->
+    <script src="js-script.js" defer></script>
+    <div class="contact-modal">
+        <div class="contact-modal__window">
+            <form class="contact-form">
+                <input
+                    id="username"
+                    class="contact-form__field" 
+                    type="text"
+                    placeholder="username">
+     
+                <input
+                    id="password"
+                    class="contact-form__field" 
+                    type="password"
+                    placeholder="password">
+             
+                <span onclick="store(); show()" id="button" class="contact-form__button" type="submit">Login</span>
+                <div class="registration">
+                    <p class="registration-text">Not registered?<a class="create-account" href="#">Create an account</a></p>
+
+                </div>
+                <div id="result"></div>
+                
+            </form> 
+        </div>
+    </div>
+   
+    
+</body>
+</html>
